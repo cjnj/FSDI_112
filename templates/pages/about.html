@@ -1,8 +1,11 @@
 { % extends 'base.html' %}
+{% load static %}
 
 {% block title %}About Me{% endblock title %}
 
-{ % block content %}
+{% block content %}
 <h1>About ME</h1>
-<p>Hi my name is corey</p>
+<p>Hi my name is corey, im 34 years old</p>
+<p>heres a picture of a motorcyle</p>
+<img src="% static '/home/corey/Code/SDGKU/FSDI_112/static/img/zh2.jpg' %" style="width:30%;">
 {% endblock content %}
